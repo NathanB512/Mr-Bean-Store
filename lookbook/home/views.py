@@ -7,7 +7,8 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 @login_required(login_url='login')
 def index(request):
-    return HttpResponse("Goodbye Son")
+    # return HttpResponseRedirect(reverse("index"))
+    return render(request, "home/index.html")
 
 # Login View
 def login_view(request):

@@ -1,0 +1,73 @@
+{% extends 'home/layout.html' %}
+
+{% block body %}
+    <!-- Cover Picture for website -->
+    <header class="vh-100" style="background: url('https://images.theconversation.com/files/304864/original/file-20191203-67028-qfiw3k.jpeg?ixlib=rb-1.1.0&rect=638%2C2%2C795%2C745&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip') top/cover no-repeat;">
+        <div class="container h-100 d-flex align-items-center justify-content-between">
+            <div class="text-center">
+                <h1 class="text-uppercase text-white">Men</h5>
+                <a href="#" class="btn mt-3 text-white" style="font-size:30px;">Filter by Brand</a>
+                <a href="#" class="btn mt-3 text-white" style="font-size:30px;">Filter by Brand</a>
+            </div>
+            <div class="text-center">
+                <h1 class="text-uppercase text-black">Women</h5>
+                    <a href="#" class="btn mt-3 text-white" style="font-size:30px;">Filter by Brand</a>
+                    <a href="#" class="btn mt-3 text-white" style="font-size:30px;"">Filter by Brand</a>
+            </div>
+        </div>
+    </header>
+    <!-- End of Cover Picture -->
+
+    <!-- New Arrivals Section -->
+    <div class="text-center" style="margin: 40px;">
+        <h2 class="">New Arrivals</h2>
+    </div>
+        <!-- Product Cards -->
+        <div class="container">
+            <div class="row">
+                <!-- Render prodyct card -->
+                <div class="col-sm-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <img class="card-img-top" width="294" height="294" src="https://images.theconversation.com/files/304864/original/file-20191203-67028-qfiw3k.jpeg?ixlib=rb-1.1.0&rect=638%2C2%2C795%2C745&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+                            alt="Image">
+                        <div class="card-body">
+                            <!-- Product title -->
+                            <h5 class="card-title">Designer Bean</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <img class="card-img-top" width="294" height="294"
+                            src="https://images.theconversation.com/files/304864/original/file-20191203-67028-qfiw3k.jpeg?ixlib=rb-1.1.0&rect=638%2C2%2C795%2C745&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+                            alt="Image">
+                        <div class="card-body">
+                            <!-- Product title -->
+                            <h5 class="card-title">Designer Bean</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <img class="card-img-top" width="294" height="294"
+                            src="https://images.theconversation.com/files/304864/original/file-20191203-67028-qfiw3k.jpeg?ixlib=rb-1.1.0&rect=638%2C2%2C795%2C745&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+                            alt="Image">
+                        <div class="card-body">
+                            <!-- Product title -->
+                            <h5 class="card-title">Designer Bean</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End of New Arrivals -->
+    <hr>
+
+    <!-- About Us -->
+    <div class="text-center">
+        <h2>About Us</h2>
+        <p style="margin: 80px;">Flyhighldn provides high-end designer garments as well as sneakers.</p>
+    </div>
+    <!-- End of About -->
+    
+{% endblock %}
