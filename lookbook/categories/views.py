@@ -8,11 +8,11 @@ from django.contrib.auth.decorators import login_required
 
 @login_required(login_url='login')
 def menBrand_view(request):
-    return HttpResponseRedirect(reverse("categories/menBrand.html"))
+    return render(request, "categories/menBrand.html")
 
 
 @login_required(login_url='login')
-def menCatgeory_view(request):
+def menCategory_view(request):
     return HttpResponseRedirect(reverse("categories/menCategory.html"))
 
 
